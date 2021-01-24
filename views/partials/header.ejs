@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title><%= title %> | Stocks</title>
+    <meta name="og:title" content="An introduction to Stocks">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="stock-image.webp">
+    <meta name="og:url" content="https://aarav-juneja.github.io/Stocks">
+    <meta name="og:description" content="A quick introduction to how stocks work. This was made for my school project.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Aarav Juneja">
+    <meta name="application-name" content="Stock Introduction">
+    <meta name="description" content="A quick introduction to how stocks work. This was made for my school project.">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="stock logo.png" type="image/png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="canonical" href="https://aarav-juneja.github.io/Stocks/"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="nav-bar">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="/Stocks" class="w3-bar-item w3-button w3-padding-large">Home</a>
+      <a href="types.html" class="w3-bar-item w3-button w3-padding-large hide-small">Types of Stocks</a>
+      <a href="options.html" class="w3-bar-item w3-button w3-padding-large hide-small">Options</a>
+      <a href="advanced.html" class="w3-bar-item w3-button w3-padding-large hide-small">Advanced</a>
+      <a class="w3-bar-item w3-button w3-padding-large hide-small">Contact</a>
+      <a href="javascript:void(0)" class="w3-padding-large hide-small w3-right search"><i class="fa fa-search"></i></a>
+      <input type="text" name="" value="">
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+      <a href="types.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Types of Stocks</a>
+      <a href="options.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Options</a>
+      <a href="advanced.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Advanced</a>
+      <a class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
+    </div>
